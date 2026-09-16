@@ -51,10 +51,26 @@
 <hr>
 </header>
 <main>
-    <img src="foto.jpeg" alt="foto" class="foto">
-    <p class="Eu e os casas">
+      <div class="container-imagens">
+         <img src="foto.jpeg" alt="foto" class="foto">
+         <p class="Eu e os casas">
         Eu e os casas
-    </p>
+        <img src="foto 1.jpeg" alt="foto" class="foto">
+        <p class="Meu cachorro, Boris"></p>
+        Meu cachorro, Boris
+      </div>
+
+      <style>
+        .container-imagens{
+            display: flex;
+            gap: 10px
+        }
+        .container-imagens img{
+            max-width: 100%;
+            height: auto;
+        }
+
+      </style>
 
     <p class=" Sobre mim">
         Me chamo Bruno Barbosa de Lima, tenho atualmente 23 anos, 
